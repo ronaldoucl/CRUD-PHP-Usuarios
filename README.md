@@ -23,11 +23,11 @@ git clone https://tu-repositorio/crud-usuarios-php.git
 2. **Importar la Base de Datos:**
 - Accede a tu gestor de base de datos (phpMyAdmin, MySQL Workbench, etc.)
 - Crea una nueva base de datos llamada `users_crud_php`.
-- Importa el archivo `users_crud_php.sql` incluido en el repositorio para crear las tablas necesarias.
+- Importa el archivo `users.sql` incluido en el repositorio para crear las tablas necesarias.
 
 3. **Configuración del Proyecto:**
-- Navega a la carpeta del proyecto y abre el archivo `db.php`.
-- Modifica las variables `$dbHost`, `$dbUsername`, `$dbPassword`, `$dbName` con tus datos de conexión a la base de datos.
+- Navega a la carpeta del proyecto y abre el archivo `connection.php`.
+- Modifica las variables `$hostname`, `$username`, `$password`, `$database` con tus datos de conexión a la base de datos.
 
 4. **Ejecutar la Aplicación:**
 - Coloca el proyecto en el directorio de tu servidor web.
